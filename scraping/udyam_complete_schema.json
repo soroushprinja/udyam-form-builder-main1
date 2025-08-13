@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "scrapedAt": "2025-08-13T08:46:45.860Z",
+    "source": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+    "totalSteps": 2,
+    "totalFields": 5
+  },
+  "step1": {
+    "title": "Aadhaar Verification",
+    "fields": [
+      {
+        "key": "aadhaar_number",
+        "label": "Your Aadhaar No",
+        "type": "text",
+        "id": "ctl00_ContentPlaceHolder1_txtadharno",
+        "name": "ctl00$ContentPlaceHolder1$txtadharno",
+        "placeholder": "Your Aadhaar No",
+        "required": false,
+        "pattern": "",
+        "maxlength": 12,
+        "validation": {
+          "minLength": 12,
+          "maxLength": 12,
+          "pattern": "^\\d{12}$",
+          "message": "Aadhaar number must be exactly 12 digits"
+        }
+      },
+      {
+        "key": "entrepreneur_name",
+        "label": "Name as per Aadhaar",
+        "type": "text",
+        "id": "ctl00_ContentPlaceHolder1_txtownername",
+        "name": "ctl00$ContentPlaceHolder1$txtownername",
+        "placeholder": "Name as per Aadhaar",
+        "required": false,
+        "pattern": "",
+        "maxlength": 100,
+        "validation": {
+          "minLength": 2,
+          "maxLength": 100,
+          "pattern": "^[a-zA-Z\\s]+$",
+          "message": "Name must contain only letters and spaces"
+        }
+      },
+      {
+        "key": "aadhaar_consent",
+        "label": "I consent to the use of my Aadhaar number for Udyam registration",
+        "type": "checkbox",
+        "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+        "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+        "required": true,
+        "validation": {
+          "required": true,
+          "message": "You must provide consent to proceed"
+        }
+      },
+      {
+        "key": "ctl00_contentplaceholder1_btnvalidateaadhaar",
+        "label": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+        "type": "submit",
+        "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+        "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+        "placeholder": "",
+        "required": false,
+        "pattern": "",
+        "maxlength": -1
+      },
+      {
+        "key": "checkbox",
+        "label": "checkbox",
+        "type": "checkbox",
+        "id": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "required": false,
+        "pattern": "",
+        "maxlength": -1
+      }
+    ]
+  },
+  "step2": {
+    "title": "PAN Verification",
+    "fields": []
+  }
+}

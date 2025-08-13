@@ -1,0 +1,155 @@
+{
+  "step1": [
+    {
+      "key": "your_aadhaar_no",
+      "label": "Your Aadhaar No",
+      "type": "text",
+      "required": false,
+      "placeholder": "Your Aadhaar No",
+      "pattern": null,
+      "maxlength": 12,
+      "options": null
+    },
+    {
+      "key": "name_as_per_aadhaar",
+      "label": "Name as per Aadhaar",
+      "type": "text",
+      "required": false,
+      "placeholder": "Name as per Aadhaar",
+      "pattern": null,
+      "maxlength": 100,
+      "options": null
+    },
+    {
+      "key": "ctl00_contentplaceholder1_chkdecarationa",
+      "label": "",
+      "type": "checkbox",
+      "required": false,
+      "placeholder": "",
+      "pattern": null,
+      "maxlength": null,
+      "options": null
+    }
+  ],
+  "step2": [
+    {
+      "key": "ctl00_contentplaceholder1_ddltypeoforg",
+      "label": "",
+      "type": "select-one",
+      "required": false,
+      "placeholder": "",
+      "pattern": null,
+      "maxlength": null,
+      "options": [
+        {
+          "value": "0",
+          "text": "Type of Organisation / संगठन के प्रकार"
+        },
+        {
+          "value": "1",
+          "text": "1. Proprietary / एकल स्वामित्व"
+        },
+        {
+          "value": "2",
+          "text": "2. Hindu Undivided Family / हिंदू अविभाजित परिवार (एचयूएफ)"
+        },
+        {
+          "value": "3",
+          "text": "3. Partnership / पार्टनरशिप"
+        },
+        {
+          "value": "4",
+          "text": "4. Co-Operative / सहकारी"
+        },
+        {
+          "value": "5",
+          "text": "5. Private Limited Company / प्राइवेट लिमिटेड कंपनी"
+        },
+        {
+          "value": "6",
+          "text": "6. Public Limited Company / पब्लिक लिमिटेड कंपनी"
+        },
+        {
+          "value": "7",
+          "text": "7. Self Help Group / स्वयं सहायता समूह"
+        },
+        {
+          "value": "9",
+          "text": "8. Limited Liability Partenership / सीमित दायित्व भागीदारी"
+        },
+        {
+          "value": "10",
+          "text": "9. Society / सोसाईटी"
+        },
+        {
+          "value": "11",
+          "text": "10. Trust / ट्रस्ट"
+        },
+        {
+          "value": "8",
+          "text": "11. Others / अन्य"
+        }
+      ]
+    },
+    {
+      "key": "enter_pan_number",
+      "label": "Enter Pan Number",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter Pan Number",
+      "pattern": null,
+      "maxlength": 10,
+      "options": null
+    },
+    {
+      "key": "name_as_per_pan",
+      "label": "Name as per PAN",
+      "type": "text",
+      "required": false,
+      "placeholder": "Name as per PAN",
+      "pattern": null,
+      "maxlength": 100,
+      "options": null
+    },
+    {
+      "key": "dd_mm_yyyy",
+      "label": "DD/MM/YYYY",
+      "type": "text",
+      "required": false,
+      "placeholder": "DD/MM/YYYY",
+      "pattern": null,
+      "maxlength": null,
+      "options": null
+    },
+    {
+      "key": "ctl00_contentplaceholder1_chkdecarationp",
+      "label": "",
+      "type": "checkbox",
+      "required": false,
+      "placeholder": "",
+      "pattern": null,
+      "maxlength": null,
+      "options": null
+    },
+    {
+      "key": "ctl00_contentplaceholder1_btnvalidatepan",
+      "label": "",
+      "type": "submit",
+      "required": false,
+      "placeholder": "",
+      "pattern": null,
+      "maxlength": null,
+      "options": null
+    },
+    {
+      "key": "checkbox",
+      "label": "",
+      "type": "checkbox",
+      "required": false,
+      "placeholder": "",
+      "pattern": null,
+      "maxlength": null,
+      "options": null
+    }
+  ]
+}

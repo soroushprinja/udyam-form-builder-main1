@@ -1,0 +1,24 @@
+{
+  "name": "udyam-scraping",
+  "version": "1.0.0",
+  "description": "Web scraping tools for Udyam registration portal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:step1": "node scraper.js --step=1",
+    "scrape:step2": "node scraper.js --step=2",
+    "scrape:all": "node scraper.js --all",
+    "validate": "node validator.js",
+    "generate-schema": "node schema-generator.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
